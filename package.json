@@ -13,6 +13,7 @@
     "signature",
     "fragment"
   ],
+  "main" : "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/turt2live/node-email-reply-parser.git"
@@ -21,13 +22,14 @@
     "url": "https://github.com/turt2live/node-email-reply-parser/issues"
   },
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 4.0.0"
   },
   "files": [
     "LICENSE",
     "README.md",
     "index.js",
-    "lib/"
+    "lib/",
+    "dist/index.js"
   ],
   "scripts": {
     "test": "mocha test/*Test.js"
